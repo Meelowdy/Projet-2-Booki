@@ -1,5 +1,6 @@
 h2 {
-    color: #0065FC;
+    color: #0F31E5;
+    text-align: center;
 }
 .rouge {
     color: red;
@@ -10,4 +11,46 @@ h2 {
 
 body {
     font-family: 'Raleway', sans-serif;
+    margin:2%;
+    
+}
+
+.banniere {
+padding: 280px;
+background: linear-gradient(#000046, #1CB5E0);
+background: linear-gradient(to left, #1CB5E0, #000046);
+opacity: 0.6;
+}
+
+.cadre {
+    font-size: 4em;
+    text-align: center;
+  background: #A5B4FC;
+    border-radius: 59% 41% 69% 31% / 72% 46% 54% 28%;
+    padding: 100px;
+}
+.pseudo-classe:hover {
+        background-color: #3FE687;
+        color: black;
+}
+
+h1:hover {
+    color: #FFFFFF
+}
+p:hover {
+    color : #000000
+}
+a:visited {
+    background-color: #000000;
+}
+
+h3 em {
+    color: #3e8653;
+}
+
+h2 + p  {
+    color:rgb(255, 20, 147);
+}
+a[title="Site"] {
+    color: rgba(rgb(204, 74, 74), rgb(128, 175, 128), rgb(106, 106, 206), 0.5);
 }
