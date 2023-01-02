@@ -1,0 +1,23 @@
+.logo {
+    width: 61px;
+    height: 19px;
+    position: absolute;
+}
+.hebergements {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #0065FC;
+    justify-content: space-between
+}
+.activites {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    justify-content: space-between;
+}
