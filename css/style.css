@@ -1,6 +1,11 @@
+*{
+    font-family: Raleway;
+}
 .logo {
-    width: 61px;
-    height: 19px;
+    width: 91px;
+    height: 29px;
+    padding: 30px;
+
 }
 header{
     display: flex;
@@ -8,22 +13,42 @@ header{
 }
 nav { 
     display: flex;
-    gap: 80px;
+}
+
+body {
+    margin: 0 50px 0 50px;
 }
 .hebergements {
-    font-family: Raleway;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    color: #0065FC;
+    color: #000000;
+    padding: 30px;
+    text-decoration: none;
 }
+.hebergements:hover{
+    border-top: #0065FC 2px solid;
+    color:#0065FC
+}
+
 .activites {
-    font-family: Raleway;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
     color: #000000;
-    padding-right: 40px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.activites:hover{
+    border-top: #0065FC 2px solid;
+    color:#0065FC
+}
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 16px;
 }
