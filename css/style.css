@@ -1,7 +1,14 @@
 .logo {
     width: 61px;
     height: 19px;
-    position: absolute;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav { 
+    display: flex;
+    gap: 80px;
 }
 .hebergements {
     font-family: Raleway;
@@ -10,7 +17,6 @@
     font-size: 16px;
     text-align: center;
     color: #0065FC;
-    justify-content: space-between
 }
 .activites {
     font-family: Raleway;
@@ -19,5 +25,5 @@
     font-size: 16px;
     text-align: center;
     color: #000000;
-    justify-content: space-between;
+    padding-right: 40px;
 }
