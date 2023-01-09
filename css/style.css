@@ -1,22 +1,37 @@
-*{
+* {
     font-family: Raleway;
-}
-.logo {
-    width: 91px;
-    height: 29px;
-    padding: 30px;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-}
-nav { 
-    display: flex;
 }
 
 body {
-    margin: 0 50px 0 50px;
+    width: 1400px;
+    margin: auto;
+    align-items: center;
 }
+
+.logo {
+    padding-top: 20px;
+    width: 79px;
+    height: 35px;
+}
+
+header {
+    padding-inline: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+main {
+    padding-inline: 5%;
+}
+
+nav {
+    padding-inline: 5%;
+    display: flex;
+}
+
+
+
 .hebergements {
     font-weight: 500;
     font-size: 16px;
@@ -25,9 +40,10 @@ body {
     padding: 30px;
     text-decoration: none;
 }
-.hebergements:hover{
+
+.hebergements:hover {
     border-top: #0065FC 2px solid;
-    color:#0065FC
+    color: #0065FC
 }
 
 .activites {
@@ -39,25 +55,27 @@ body {
     text-decoration: none;
 }
 
-.activites:hover{
+.activites:hover {
     border-top: #0065FC 2px solid;
-    color:#0065FC
+    color: #0065FC
 }
+
 h1 {
     font-weight: 700;
     font-size: 22px;
 }
+
 h4 {
     font-weight: 400;
     font-size: 16px;
 }
+
 .search {
-    display: flex; 
-    border:#D9D9D9 1px solid;
+    display: flex;
     width: 300px;
-    height: 43px;
-    border-radius: 17px 17px 17px 17px;  
+    height: 44px;
 }
+
 .fa-location-dot {
     display: flex;
     justify-content: center;
@@ -68,21 +86,43 @@ h4 {
     height: 30px;
     padding: 7px;
 }
-.localisation, .bouton {
+
+.localisation,
+.bouton {
     border: none;
     outline: none;
 }
+
 .localisation {
     font-weight: bold;
     width: 45%;
-    padding-left: 10px;
+    border-top: #D9D9D9 1px solid;
+    border-bottom: #D9D9D9 1px solid;
+    padding-left: 5px;
 }
+
 .bouton {
-    background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
     color: white;
     font-weight: bold;
     width: 45%;
-    position: relative;
     height: 44px;
+}
+
+.filtres {
+    display: flex;
+    width: 920px;
+    height: 50px;
+    padding: 30px;
+    color: #000000;
+    justify-content: space-between;
+    border: #000000 1px solid;
+    font-weight: 700;
+}
+
+.fa-money-bill-wave {
+    font-size: 17px;
+    color: #0065FC;
+    border-radius: 15px 15px 15px 15px;
 }
