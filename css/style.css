@@ -3,68 +3,60 @@
 }
 
 body {
-    width: 1400px;
-    margin: auto;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
 }
 
 .logo {
-    padding-top: 25px;
-    width: 79px;
-    height: 25px;
-    align-items: center;
+    padding-top: 44px;
+    height: 19px;
 }
 
 header {
-    padding-inline: 55px;
+    padding-inline: 5%;
     display: flex;
     justify-content: space-between;
+
 }
 
 main {
-    padding-inline: 55px;
+    padding-inline: 5%;
 }
 
 nav {
-    padding-inline: 5%;
     display: flex;
 }
 
 .searchbar_filtre {
-    margin-top: 63px;
+    margin-top: 60px;
 }
 
 
-.hebergements {
+.lien_navbar {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
     color: #000000;
-    padding: 30px;
+    padding-top: 48px;
     text-decoration: none;
+    width: 162px;
 }
 
-.hebergements:hover {
+.lien_navbar:hover {
+    padding-top: 46px;
     border-top: #0065FC 2px solid;
     color: #0065FC
 }
 
-.activites {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #000000;
-    padding: 30px;
-    text-decoration: none;
-}
-
-.activites:hover {
-    border-top: #0065FC 2px solid;
-    color: #0065FC
-}
 
 h1 {
     font-weight: 900;
     font-size: 22px;
+}
+
+.centre_ville {
+    margin-top: -10px;
 }
 
 h4 {
@@ -73,8 +65,6 @@ h4 {
 
 .search {
     display: flex;
-    width: 400px;
-    height: 44px;
 }
 
 .fa-location-dot {
@@ -83,9 +73,8 @@ h4 {
     align-items: center;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
-    width: 26px;
-    height: 25px;
-    padding: 7px;
+    width: 50px;
+    height: 49px;
 }
 
 .localisation,
@@ -95,31 +84,29 @@ h4 {
 }
 
 .localisation {
-    font-weight: bold;
-    width: 190px;
+    font-weight: 700;
+    font-size: 18px;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
-    padding-left: 8px;
-    height: 35px;
-    align-items: center;
-
+    padding-left: 17px;
 }
 
 .bouton {
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
     color: white;
-    font-weight: bold;
-    width: 90px;
-    height: 38.9px;
+    font-weight: 700;
+    width: 132px;
+    height: 49px;
+    font-size: 18px;
 }
 
 .filtres {
     display: flex;
     font-size: 17px;
-    width: 750px;
+    width: 950px;
     height: 50px;
-    margin: 40px 5px 0px 0px;
+    margin: 46px 5px 0px 0px;
     color: #000000;
     align-items: center;
     justify-content: space-between;
@@ -135,8 +122,174 @@ h4 {
 .filtres i {
     color: #0065FC;
 }
+
 .bouton_filtre {
     border: #F2F2F2 2px solid;
     border-radius: 30px;
-    padding: 5px 10px 5px 10px;
+    padding: 8px 15px 8px 15px;
+    margin: 10px;
+}
+.bouton_filtre:hover {
+    background-color: #DEEBFF;
+}
+.fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #0065FC;
+    border: #D9D9D9 1px solid;
+    border-radius: 40px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card_hebergements {
+    display: flex;
+    width: 880px;
+    height: 626px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.title_hebergements {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 42px 23px 31px 40px;
+}
+
+.group_card {
+    display: flex;
+    width: 880px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.little_card {
+    display: flex;
+    width: 246px;
+    height: 199px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0px 15px 30px 15px;
+}
+
+.img_canebiere {
+    display: flex;
+    width: 235px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    margin: 5px 5px 0px 5px;
+}
+
+.img_hotel_du_port {
+    display: flex;
+    width: 235px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    margin: 5px 5px 0px 5px;
+}
+
+.img_hotel_les_mouettes {
+    display: flex;
+    width: 235px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    margin: 5px 5px 0px 5px;
+}
+
+.img_hotel_la_mer {
+    display: flex;
+    width: 235px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    margin: 5px 5px 0px 5px;
+}
+
+.img_auberge_le_panier {
+    display: flex;
+    width: 235px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    margin: 5px 5px 0px 5px;
+}
+
+.img_hotel_amina {
+    display: flex;
+    width: 235px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    margin: 5px 5px 0px 5px;
+}
+
+.name_of_location {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.price_location {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 8px 0px 10px 12px;
+}
+
+.star {
+    flex-direction: column;
+}
+
+.blue_star {
+    color: #0065FC;
+}
+
+.stars_no_color {
+    color: #F2F2F2;
+}
+
+.lien_no_color {
+    text-decoration: none;
+    color: #000;
+}
+.more_card {
+    text-decoration: none;
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 10px 0px 46px 44px;
+}
+
+.hebergement_most_popular {
+    display: flex;
+}
+.card_most_popular {
+    display: flex;
+    width: 420px;
+    height: 625px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
 }
