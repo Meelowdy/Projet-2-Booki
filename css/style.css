@@ -1,37 +1,31 @@
 * {
     font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1340px;
     width: 100%;
+    background-color: #FFFFFF;
 }
 
 .logo {
-    padding-top: 44px;
     height: 19px;
+    margin-top: 44px;
+    margin-left: 5px;
 }
 
 header {
-    padding-inline: 5%;
     display: flex;
     justify-content: space-between;
-
-}
-
-main {
-    padding-inline: 5%;
 }
 
 nav {
     display: flex;
 }
-
-.searchbar_filtre {
-    margin-top: 60px;
-}
-
 
 .lien_navbar {
     font-weight: 500;
@@ -49,14 +43,17 @@ nav {
     color: #0065FC
 }
 
+.searchbar_filtre {
+    margin-top: 63px;
+    margin-left: 5px;
+}
 
 h1 {
-    font-weight: 900;
     font-size: 22px;
 }
 
 .centre_ville {
-    margin-top: -10px;
+    margin: 8px 0 20px 0;
 }
 
 h4 {
@@ -88,7 +85,7 @@ h4 {
     font-size: 18px;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
-    padding-left: 17px;
+    padding: 0px 0px 0px 17px;
 }
 
 .bouton {
@@ -99,19 +96,18 @@ h4 {
     width: 132px;
     height: 49px;
     font-size: 18px;
+    padding: 0px;
 }
 
 .filtres {
     display: flex;
     font-size: 17px;
-    width: 950px;
-    height: 50px;
-    margin: 46px 5px 0px 0px;
+    width: 914px;
+    margin: 32px 43px 0px 7px;
     color: #000000;
     align-items: center;
     justify-content: space-between;
     font-weight: 700;
-
 }
 
 .filtres a {
@@ -124,19 +120,21 @@ h4 {
 }
 
 .bouton_filtre {
-    border: #F2F2F2 2px solid;
+    border: #D9D9D9 2px solid;
     border-radius: 30px;
-    padding: 8px 15px 8px 15px;
-    margin: 10px;
+    padding: 14px 20px 14px 20px;
 }
+
 .bouton_filtre:hover {
     background-color: #DEEBFF;
 }
+
 .fa-info {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    margin-left: 4px;
     font-size: 16px;
     color: #0065FC;
     border: #D9D9D9 1px solid;
@@ -152,92 +150,45 @@ h4 {
     margin-top: 20px;
 }
 
-.card_hebergements {
+.hebergement_most_popular {
     display: flex;
-    width: 880px;
-    height: 626px;
+    margin-top: 39px;
+}
+
+.card_hebergements {
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 30px;
-    flex-direction: column;
+    width: 880px;
+    padding: 42px 40px 46px 40px
 }
 
 .title_hebergements {
-    font-weight: 700;
     font-size: 22px;
-    margin: 42px 23px 31px 40px;
 }
 
 .group_card {
     display: flex;
-    width: 880px;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin-top: 23px;
+    justify-content: space-between;
 }
 
 .little_card {
-    display: flex;
-    width: 246px;
-    height: 199px;
+    width: 30.75%;
     background-color: #FFFFFF;
     border-radius: 20px;
-    margin: 0px 15px 30px 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
-.img_canebiere {
+.img_hebergements {
     display: flex;
-    width: 235px;
-    height: 124px;
+    width: 100%;
+    height: 115px;
+    border: #FFFFFF 5px solid;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    margin: 5px 5px 0px 5px;
-}
 
-.img_hotel_du_port {
-    display: flex;
-    width: 235px;
-    height: 124px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    margin: 5px 5px 0px 5px;
-}
-
-.img_hotel_les_mouettes {
-    display: flex;
-    width: 235px;
-    height: 124px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    margin: 5px 5px 0px 5px;
-}
-
-.img_hotel_la_mer {
-    display: flex;
-    width: 235px;
-    height: 124px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    margin: 5px 5px 0px 5px;
-}
-
-.img_auberge_le_panier {
-    display: flex;
-    width: 235px;
-    height: 124px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    margin: 5px 5px 0px 5px;
-}
-
-.img_hotel_amina {
-    display: flex;
-    width: 235px;
-    height: 124px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    margin: 5px 5px 0px 5px;
 }
 
 .name_of_location {
@@ -247,18 +198,18 @@ h4 {
 
 .price_location {
     font-size: 14px;
-    font-weight: 400;
 }
 
 .info_card {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 8px 0px 10px 12px;
+    margin: 8px 0px 12px 16px;
 }
 
-.star {
-    flex-direction: column;
+.stars {
+    display: flex;
+    margin: 9px 1px 11px 0px;
 }
 
 .blue_star {
@@ -273,23 +224,173 @@ h4 {
     text-decoration: none;
     color: #000;
 }
+
 .more_card {
     text-decoration: none;
     color: #000;
     font-size: 21px;
     font-weight: 700;
-    margin: 10px 0px 46px 44px;
+    margin-top: 10px;
 }
 
-.hebergement_most_popular {
-    display: flex;
-}
 .card_most_popular {
     display: flex;
     width: 420px;
-    height: 625px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 30px;
     margin-left: 40px;
+    padding: 0 37px;
+    flex-direction: column;
+}
+
+.title_and_icon {
+    display: flex;
+    align-items: center;
+    margin: 41px 0 26px 0;
+    justify-content: space-between;
+}
+
+.title_and_icon h2 {
+    margin: 0;
+}
+
+.title_and_icon i {
+    display: flex;
+    justify-content: space-around;
+    width: 18px;
+    height: 15.75px;
+    color: #0065FC;
+}
+
+/*
+.group_card_popular {
+    display: flex;
+    width: 420px;
+    flex-wrap: wrap;
+}
+*/
+.info_card_popular {
+    width: 169px;
+    height: 144px;
+}
+
+.lien_no_color_2 {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    height: 144px;
+    width: 343px;
+}
+
+.little_card_popular {
+    display: flex;
+    width: 343px;
+    height: 144px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 33px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img_most_popular {
+    display: flex;
+    object-fit: cover;
+    width: 137px;
+    height: 134px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 5px 0px 0px 5px;
+}
+
+.text_card_popular {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_of_location_popular {
+    font-size: 16px;
+    font-weight: 900;
+    width: 169px;
+    margin: 16px 22px 7px 15px;
+}
+
+.price_location_popular {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.stars_popular {
+    display: flex;
+    margin: 44px 0px 12px 15px;
+}
+
+.title_activites {
+    display: flex;
+    margin: 60px 0 18px 0;
+}
+
+.group_card_activites {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_activites {
+    width: 100%;
+    margin-right: 43px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card_activites:last-child {
+    margin-right: 0;
+}
+
+.img_card_activites {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 389px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.names_activites {
+    font-size: 16px;
+    margin: 0px 0px 21px 19px;
+}
+
+.card_footer {
+    display: flex;
+    width: 100%;
+    height: 225px;
+    background-color: #F2F2F2;
+    margin-top: 61px;
+    justify-content: space-between;
+    padding-inline: 70px;
+    padding-top: 45px;
+}
+
+.text_footer {
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.liste_puce {
+
+    list-style-type: none;
+}
+
+.text_propos {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    @import url("./mobile.css");
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    @import url("./tablette.css");
 }
