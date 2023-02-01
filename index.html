@@ -28,40 +28,34 @@
                 <input class="localisation" type="text" placeholder="Localisation" value="Marseille, France">
                 <input class="bouton" type="button" value="Rechercher">
             </div>
-            <div class="filtres">
-                <span>Filtres</span>
-                <div class="bouton_filtre">
-                    <a href="#">
-                        <i class="fa-solid fa-money-bill-wave"></i>
-                        <span>
+            <div class="group_filter">
+                <p class="title_filter">Filtres</p>
+                <ul class="group_button_filter">
+                    <li class="button_filter">
+                        <a href="#">
+                            <i class="fa-solid fa-money-bill-wave blue"></i>
                             Economique
-                        </span>
-                    </a>
-                </div>
-                <div class="bouton_filtre">
-                    <a href="#">
-                        <i class="fa-solid fa-person"></i>
-                        <span>
+                        </a>
+                    </li>
+                    <li class="button_filter">
+                        <a href="#">
+                            <i class="fa-solid fa-child blue"></i>
                             Familial
-                        </span>
-                    </a>
-                </div>
-                <div class="bouton_filtre">
-                    <a href="#">
-                        <i class="fa-solid fa-heart"></i>
-                        <span>
+                        </a>
+                    </li>
+                    <li class="button_filter">
+                        <a href="#">
+                            <i class="fa-solid fa-heart blue"></i>
                             Romantique
-                        </span>
-                    </a>
-                </div>
-                <div class="bouton_filtre">
-                    <a href="#">
-                        <i class="fa-solid fa-dog"></i>
-                        <span>
+                        </a>
+                    </li>
+                    <li class="button_filter">
+                        <a href="#">
+                            <i class="fa-solid fa-dog blue"></i>
                             Animaux autorisés
-                        </span>
-                    </a>
-                </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <div class="information">
                 <i class="fa-solid fa-info"></i>
@@ -172,7 +166,7 @@
                                 src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                 alt="Photo de l'Hôtel Chez Amina">
                             <div class="info_card">
-                                <span class="name_of_location">Hôtel Chez Amina</span>
+                                <p class="name_of_location">Hôtel Chez Amina</p>
                                 <p class="price_location">Nuit à partir de <strong>96€</strong></p>
                                 <span class="stars">
                                     <i class="fa-solid fa-star blue_star"></i>
@@ -194,65 +188,67 @@
                     <h2>Les plus populaires</h2>
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
-                <div class="little_card_popular">
-                    <a class="lien_no_color_2" href="#">
-                        <img class="img_most_popular"
-                            src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                            alt="Photo de l'Hôtel Le soleil du matin">
-                        <div class="info_card_popular">
-                            <div class="text_card_popular">
-                                <span class="name_of_location_popular">Hôtel Le soleil du matin</span>
-                                <span class="price_location_popular">Nuit à partir de <strong>128€</strong></span>
+                <div class="group_card_popular">
+                    <div class="little_card_popular">
+                        <a class="lien_no_color_2" href="#">
+                            <img class="img_most_popular"
+                                src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Photo de l'Hôtel Le soleil du matin">
+                            <div class="info_card_popular">
+                                <div class="text_card_popular">
+                                    <p class="name_of_location_popular">Hôtel Le soleil du matin</p>
+                                    <p class="price_location_popular">Nuit à partir de <strong>128€</strong></p>
+                                </div>
+                                <span class="stars_popular">
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star stars_no_color"></i>
+                                </span>
                             </div>
-                            <span class="stars_popular">
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star stars_no_color"></i>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="little_card_popular">
-                    <a class="lien_no_color_2" href="#">
-                        <img class="img_most_popular"
-                            src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                            alt="Photo de Chambres d'hôtes Au coeur de l'eau">
-                        <div class="info_card_popular">
-                            <div class="text_card_popular">
-                                <span class="name_of_location_popular">Chambres d'hôtes Au coeur de l'eau</span>
-                                <span class="price_location_popular">Nuit à partir de <strong>71€</strong></span>
+                        </a>
+                    </div>
+                    <div class="little_card_popular">
+                        <a class="lien_no_color_2" href="#">
+                            <img class="img_most_popular"
+                                src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                alt="Photo de Chambres d'hôtes Au coeur de l'eau">
+                            <div class="info_card_popular">
+                                <div class="text_card_popular">
+                                    <p class="name_of_location_popular">Chambres d'hôtes Au coeur de l'eau</p>
+                                    <p class="price_location_popular">Nuit à partir de <strong>71€</strong></p>
+                                </div>
+                                <span class="stars_popular">
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star stars_no_color"></i>
+                                </span>
                             </div>
-                            <span class="stars_popular">
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star stars_no_color"></i>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="little_card_popular">
-                    <a class="lien_no_color_2" href="#">
-                        <img class="img_most_popular"
-                            src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                            alt="Photo d'Hôtel Bleu et Blanc">
-                        <div class="info_card_popular">
-                            <div class="text_card_popular">
-                                <span class="name_of_location_popular">Hôtel Bleu et Blanc</span>
-                                <span class="price_location_popular">Nuit à partir de <strong>68€</strong></span>
+                        </a>
+                    </div>
+                    <div class="little_card_popular">
+                        <a class="lien_no_color_2" href="#">
+                            <img class="img_most_popular"
+                                src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="Photo d'Hôtel Bleu et Blanc">
+                            <div class="info_card_popular">
+                                <div class="text_card_popular">
+                                    <p class="name_of_location_popular">Hôtel Bleu et Blanc</p>
+                                    <p class="price_location_popular">Nuit à partir de <strong>68€</strong></p>
+                                </div>
+                                <span class="stars_popular">
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star blue_star"></i>
+                                    <i class="fa-solid fa-star stars_no_color"></i>
+                                </span>
                             </div>
-                            <span class="stars_popular">
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star blue_star"></i>
-                                <i class="fa-solid fa-star stars_no_color"></i>
-                            </span>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
         </div>
         </aside>
@@ -298,7 +294,7 @@
     </main>
     <footer class="card_footer">
         <div class="info_footer">
-            <span class="text_footer">À propos</span>
+            <h3 class="text_footer">À propos</h3>
             <a class="lien_no_color" href="#">
                 <ul class="liste_puce">
                     <li class="text_propos">Fonctionnement du site</li>
@@ -308,7 +304,7 @@
             </a>
         </div>
         <div class="info_footer">
-            <span class="text_footer">Nos hébergements</span>
+            <h3 class="text_footer">Nos hébergements</h3>
             <a class="lien_no_color" href="#">
                 <ul class="liste_puce">
                     <li class="text_propos">Charte qualité</li>
@@ -317,7 +313,7 @@
             </a>
         </div>
         <div class="info_footer">
-            <span class="text_footer">Assistance</span>
+            <h3 class="text_footer">Assistance</h3>
             <a class="lien_no_color" href="#">
                 <ul class="liste_puce">
                     <li class="text_propos">Centre d'aide</li>

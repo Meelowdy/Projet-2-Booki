@@ -99,33 +99,47 @@ h4 {
     padding: 0px;
 }
 
-.filtres {
+.group_filter {
     display: flex;
     font-size: 17px;
-    width: 914px;
+    width: 100%;
     margin: 32px 43px 0px 7px;
-    color: #000000;
     align-items: center;
-    justify-content: space-between;
     font-weight: 700;
 }
 
-.filtres a {
+.title_filter {
+    margin-right: 23px;
+}
+
+.group_button_filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.group_filter a {
     color: #000000;
     text-decoration: none;
 }
 
-.filtres i {
+.group_filter i {
     color: #0065FC;
 }
 
-.bouton_filtre {
+.button_filter {
     border: #D9D9D9 2px solid;
     border-radius: 30px;
     padding: 14px 20px 14px 20px;
+    list-style: none;
+    margin-right: 43px;
 }
 
-.bouton_filtre:hover {
+.button_filter:last-child {
+    margin-right: 0;
+}
+
+.button_filter:hover {
     background-color: #DEEBFF;
 }
 
@@ -296,26 +310,25 @@ h4 {
     display: flex;
     object-fit: cover;
     width: 137px;
-    height: 134px;
     border-radius: 20px 0px 0px 20px;
-    margin: 5px 0px 0px 5px;
+    border: #FFFFFF 5px solid;
 }
 
 .text_card_popular {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
 }
 
 .name_of_location_popular {
     font-size: 16px;
     font-weight: 900;
     width: 169px;
-    margin: 16px 22px 7px 15px;
+    margin: 16px 22px 7px 0px;
 }
 
 .price_location_popular {
     font-size: 14px;
-    margin-left: 15px;
 }
 
 .stars_popular {
@@ -387,10 +400,67 @@ h4 {
     margin-bottom: 12px;
 }
 
-@media only screen and (max-width: 768px) {
-    @import url("./mobile.css");
+/* tablette */
+@media only screen and (max-width: 991px) {
+    body {
+        max-width: 880px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .searchbar_filtres {
+        width: 100%;
+    }
+
+    .search {
+        margin-left: 2px;
+    }
+
+    .group_filter {
+        margin-left: 0;
+    }
+
+    .title_filter {
+        margin-right: 17px;
+    }
+
+    .button_filter {
+        margin-right: 22px;
+        margin-bottom: 17px;
+    }
+
+    .information {
+        margin-top: 23px;
+    }
+
+    .hebergement_most_popular {
+        flex-direction: column;
+    }
+
+    .card_most_popular {
+        margin-top: 53px;
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .group_card_popular {
+        display: flex;
+        
+    }
+    .little_card_popular {
+        width: 252px;
+    }
+    .img_most_popular {
+        width: 106px;
+    }
+    .text_card_popular {
+        flex-wrap: wrap;
+    }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-    @import url("./tablette.css");
-}
+
+/* mobile */
+@media only screen and (max-width: 767px) {}
