@@ -26,7 +26,13 @@
             <div class="search">
                 <i class="fa-solid fa-location-dot"></i>
                 <input class="localisation" type="text" placeholder="Localisation" value="Marseille, France">
-                <input class="bouton" type="button" value="Rechercher">
+                <!--
+                <input class="bouton_search" type="button" value="Rechercher">
+                -->
+                <button class="bouton_search">    
+                    <span id="recherche">Rechercher</span>
+                    <i class="bouton_search fa-sharp fa-solid fa-magnifying-glass" id="loupe"></i>
+                </button>
             </div>
             <div class="group_filter">
                 <p class="title_filter">Filtres</p>
@@ -250,8 +256,8 @@
                         </a>
                     </div>
                 </div>
-        </div>
-        </aside>
+            </aside>
+            </div>
         <section>
             <div id="activites">
                 <h2 class="title_activites">Activités à Marseille</h2>
