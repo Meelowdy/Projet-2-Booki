@@ -165,7 +165,6 @@ h4 {
     border-radius: 40px;
     width: 24px;
     height: 24px;
-
 }
 
 .information {
@@ -242,10 +241,12 @@ h4 {
 
 .blue_star {
     color: #0065FC;
+    font-size: 12px;
 }
 
 .stars_no_color {
     color: #F2F2F2;
+    font-size: 12px;
 }
 
 .lien_no_color {
@@ -472,12 +473,11 @@ h4 {
 
     .group_card_popular {
         display: flex;
-
+        justify-content: space-between;
     }
 
     .little_card_popular {
         width: 31.4%;
-        margin-right: 23px;
     }
 
     .little_card_popular:last-child {
@@ -509,7 +509,7 @@ h4 {
     }
 
     .title_activites {
-        margin: 70px 0 34px 25.5px;
+        margin: 70px 0 34px 8px;
 
     }
 
@@ -534,7 +534,7 @@ h4 {
         display: flex;
         height: 56px;
         align-items: center;
-        margin: 0 0 0 19px;
+        margin: 0 18px 0 19px;
     }
 
     .card_footer {
@@ -679,9 +679,12 @@ h4 {
     }
     .hebergement_most_popular {
         flex-direction: column-reverse;
+        margin-top: 0;
     }
     .card_most_popular {
         border-radius: 0;
+        margin-top: 17px;
+        padding-inline: 20px;
     }
     .group_card_popular {
         flex-direction: column;
@@ -689,16 +692,69 @@ h4 {
     .little_card_popular {
         width: 100%;
     }
+    .lien_no_color_2 {
+        width: 100%;
+    }
     .img_most_popular {
-        width: 46.52%;
+        width: 85.8%;
     }
     .info_card_popular {
-        width: 250px;
+        width: 100%;
     }
     .name_of_location_popular {
-        width: 150px;
+        width: 100%
     }
     .card_footer {
         flex-direction: column;
+    }
+    .card_hebergements {
+        padding-bottom: 0;
+        padding-inline: 20px;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    .group_card {
+        flex-direction: column;
+    }
+    .little_card {
+        margin-bottom: 12px;
+        width: 100%;
+        height: 199px;
+    }
+    .little_card:last-child {
+        margin-bottom: 0;
+    }
+    .more_card {
+        visibility: hidden;
+    }
+    .title_activites {
+        margin-top: 80px;
+        width: 50%;
+        margin-left: 22px;
+    }
+    .group_card_activites {
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 20px;
+    }
+    .card_activites {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+        height: 190px;
+    }
+    .card_activites:last-child {
+        margin-bottom: 0;
+    }
+    .img_card_activites {
+        height: 134px;
+    }
+    .card_footer {
+        height: 100%;
+        padding-left: 30px;
+        margin-top: 80px;
+    }
+    .info_footer {
+        padding-bottom: 45px;
     }
 }
